@@ -1,0 +1,19 @@
+{
+  "name": "advanced-javascript-exercises",
+  "version": "1.0.0",
+  "description": "A set of JavaScript exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agonsant/advanced-javascript-exercises.git"
+  },
+  "author": "Alex González",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agonsant/advanced-javascript-exercises/issues"
+  },
+  "homepage": "https://github.com/agonsant/advanced-javascript-exercises#readme"
+}
