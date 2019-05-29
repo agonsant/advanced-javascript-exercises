@@ -12,14 +12,15 @@ Create a function that given a string representing a credit card, returns the cr
 
 Hint:
 
-    * **Visa**: Starts by 4 and it has beetwen 13 and 16 0-9 digits
-    * **Mastercard**: Starts by 51-55/2221–2720 and it has 16 0-9 digits
-    * **American Express**: Starts by 34 or 37 and it has 15 0-9 digits
+* **Visa**: Starts by 4 and it has beetwen 13 and 16 0-9 digits
+* **Mastercard**: Starts by 51-55/2221–2720 and it has 16 0-9 digits
+* **American Express**: Starts by 34 or 37 and it has 15 0-9 digits
 
 # 3: Email Validation
 
 Create a function that given an email in string format, validates if it is a valid email or not
 
 Hint:
-    * **Email rules**: https://en.wikipedia.org/wiki/Email_address
+
+* **Email rules**: https://en.wikipedia.org/wiki/Email_address
 
