@@ -4,16 +4,14 @@
  *  QUERY STRING
  ***************************/
 
-/**
- * RegExp explanation => 
- */
+
 getQueryStringParamsUsingRegExp = (url) => {
     let params = {}, match = null;
     if (url && typeof url === 'string') {
         // info https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RegExp/exec
         const regExp = /([^?=&]+)(=([^&#]*))/g
         while (match = regExp.exec(url)) {
-            params[match[0]] = match[2];
+            params[match[1]] = match[3];
         }
     }
     return params;
